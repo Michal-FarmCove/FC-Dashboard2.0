@@ -4,14 +4,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #121212;
     color: white;
-    height: max(10.0vh, 100vh);
+    height: max(2.0vh, 100vh);
     overflow: hidden; /* Prevent scrolling on the body itself */
 }
 
 .container {
     display: flex;
     width: 100%;
-    height: max(10.0vh, 100vh); /* Match viewport height */
+    height: max(2.0vh, 100vh); /* Match viewport height */
     overflow: hidden; /* Prevent container scrolling */
 }
 
@@ -24,7 +24,7 @@ body {
     justify-content: flex-start;
     padding: 20px;
     box-sizing: border-box;
-    height: max(10.0vh, 100vh);
+    height: max(2.0vh, 100vh);
     position: fixed;
     top: 0;
     left: 0;
@@ -301,7 +301,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: calc(max(10.0vh, 100vh) - 25px);
+    height: calc(max(2.0vh, 100vh) - 25px);
     width: calc(100% - 250px);
     margin-left: 250px;
     background-color: #121212;
@@ -594,7 +594,7 @@ a {
     margin-top: 80px; /* Space for the fixed header */
     margin-left: 250px; /* Sidebar width */
     padding: 20px;
-    height: calc(max(10.0vh, 100vh) - 80px); /* Remaining space after fixed header */
+    height: calc(max(2.0vh, 100vh) - 80px); /* Remaining space after fixed header */
     overflow-y: auto; /* Allow only content scrolling */
 	overflow-x: auto; /* Allow horizontal scrolling */
 }
