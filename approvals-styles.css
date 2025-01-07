@@ -17,7 +17,7 @@ body {
 
 /* Sidebar Styling */
 .sidebar {
-    width: 191.4px;
+    width: 202px;
     background-color: #1E1E1E;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ body {
 }
 
 .menu-item {
-    margin: 11.49px 0;
+    margin: 13.49px 0;
     cursor: pointer;
     position: relative;
 }
@@ -62,7 +62,7 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-size: 10.73px;
+    font-size: 12.73px;
     text-align: left;
     text-decoration: none;
 	
@@ -76,7 +76,7 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-size: 11.1px;
+    font-size: 12.73px;
     text-align: left;
     text-decoration: none;
 
@@ -90,7 +90,7 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-size: 10.73px;
+    font-size: 12.73px;
     text-align: left;
     text-decoration: none;
 }
@@ -102,15 +102,15 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-size: 11.1px;
+    font-size: 12.73px;
     text-align: left;
     text-decoration: none;
 	color: white;
 }
 
 .nav-button .circle {
-    width: 9.96px;
-    height: 9.96px;
+    width: 12.96px;
+    height: 12.96px;
     background-color: white;
     border-radius: 50.0%;
     margin-right: 7.65px;
@@ -126,15 +126,15 @@ body {
 
 .nav-button:hover .circle {
     background-color: #717171;
-	width: 10.33px;
-    height: 10.33px;
+	width: 12.33px;
+    height: 12.33px;
     font-weight: bold;
 	
 }
 
 .circle-larger {
-    width: 11.49px;
-    height: 11.49px;
+    width: 13.49px;
+    height: 13.49px;
     background-color: white;
     border-radius: 50.0%;
     margin-right: 7.65px;
@@ -146,14 +146,14 @@ body {
 
 .circle-larger:hover {
     background-color: #717171; /* Change on hover */
-    width: 12.63px; /* Increase size on hover */
-    height: 12.63px;
+    width: 13.63px; /* Increase size on hover */
+    height: 13.63px;
 }
 
 .circle-larger.active {
     background-color:#32B8CD; /* The active color */
-    width: 11.49px; /* Make it larger if active */
-    height: 11.49px;
+    width: 13.49px; /* Make it larger if active */
+    height: 13.49px;
 	color: #32B8CD;
 }
 
@@ -322,7 +322,7 @@ body {
     justify-content: flex-start;
     padding: 15.32px;
     overflow-x: hidden;
-	margin-top: 53.59px;
+	margin-top: 80.59px;
 	margin-bottom: 11.49px;
 }
 
@@ -737,16 +737,17 @@ a {
 /* Table Container */
 .table-container {
     margin-top: 75.03px; /* Adjust vertical spacing */
-    padding: 15.32px;
+    padding: 12.32px;
     background-color: #fff; /* White background */
     border-radius: 6.12px;
     display: block;
-    width: 1171.41px; /* Ensure responsiveness */
+    width: 690px; /* Ensure responsiveness */
     box-shadow: 0 3.06px 4.59px rgba(0, 0, 0, 0.1);
     text-align: center;
     overflow-x: auto; /* Add horizontal scrolling */
 	margin-left: 17.61px;
 	height: 382.81px;
+	margin-top: 111px;
 	
 }
 
@@ -755,7 +756,7 @@ a {
     margin: 0 auto; /* Horizontally center the table */
     width: 100.0%; /* Ensure table takes full container width */
     border-collapse: collapse;
-    font-size: 10.73px; /* Ensure readability */
+    font-size: 13.73px; /* Ensure readability */
     background-color: #fff; /* Table background color */
     color: #000; /* Black text */
 }
