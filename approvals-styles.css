@@ -4,27 +4,27 @@ body {
     font-family: Arial, sans-serif;
     background-color: #121212;
     color: white;
-    height: 90.0vh;
+    height: 100vh;
     overflow: hidden; /* Prevent scrolling on the body itself */
 }
 
 .container {
     display: flex;
-    width: 90.0%;
-    height: 90.0vh; /* Match viewport height */
+    width: 100.0%;
+    height: 100vh; /* Match viewport height */
     overflow: hidden; /* Prevent container scrolling */
 }
 
 /* Sidebar Styling */
 .sidebar {
-    width: 225.0px;
+    width: 191.4px;
     background-color: #1E1E1E;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 18.0px;
+    padding: 15.32px;
     box-sizing: border-box;
-    height: 90.0vh;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,13 +35,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 18.0px;
+    margin-bottom: 15.32px;
 }
 
 .logo-image {
-    width: 72.0%;
-    max-width: 135.0px;
-    margin-bottom: 9.0px;
+    width: 80.0%;
+    max-width: 114.84px;
+    margin-bottom: 7.65px;
 }
 
 .sidebar-menu {
@@ -50,7 +50,7 @@ body {
 }
 
 .menu-item {
-    margin: 13.5px 0;
+    margin: 11.49px 0;
     cursor: pointer;
     position: relative;
 }
@@ -62,7 +62,7 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-size: 12.6px;
+    font-size: 10.73px;
     text-align: left;
     text-decoration: none;
 	
@@ -76,7 +76,7 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-size: 13.05px;
+    font-size: 11.1px;
     text-align: left;
     text-decoration: none;
 
@@ -90,7 +90,7 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-size: 12.6px;
+    font-size: 10.73px;
     text-align: left;
     text-decoration: none;
 }
@@ -102,21 +102,21 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-size: 13.05px;
+    font-size: 11.1px;
     text-align: left;
     text-decoration: none;
 	color: white;
 }
 
 .nav-button .circle {
-    width: 11.7px;
-    height: 11.7px;
+    width: 9.96px;
+    height: 9.96px;
     background-color: white;
-    border-radius: 45.0%;
-    margin-right: 9.0px;
+    border-radius: 50.0%;
+    margin-right: 7.65px;
     transition: all 0.3s;
-	margin-top: 1.8px;
-	margin-bottom: 1.8px;
+	margin-top: 1.53px;
+	margin-bottom: 1.53px;
 }
 
 .nav-button .circle.active {
@@ -126,34 +126,34 @@ body {
 
 .nav-button:hover .circle {
     background-color: #717171;
-	width: 12.15px;
-    height: 12.15px;
+	width: 10.33px;
+    height: 10.33px;
     font-weight: bold;
 	
 }
 
 .circle-larger {
-    width: 13.5px;
-    height: 13.5px;
+    width: 11.49px;
+    height: 11.49px;
     background-color: white;
-    border-radius: 45.0%;
-    margin-right: 9.0px;
+    border-radius: 50.0%;
+    margin-right: 7.65px;
     transition: all 0.3s;
-    margin-top: 1.8px;
-    margin-bottom: 1.8px;
+    margin-top: 1.53px;
+    margin-bottom: 1.53px;
 	color: #32B8CD;
 }
 
 .circle-larger:hover {
     background-color: #717171; /* Change on hover */
-    width: 14.85px; /* Increase size on hover */
-    height: 14.85px;
+    width: 12.63px; /* Increase size on hover */
+    height: 12.63px;
 }
 
 .circle-larger.active {
     background-color:#32B8CD; /* The active color */
-    width: 13.5px; /* Make it larger if active */
-    height: 13.5px;
+    width: 11.49px; /* Make it larger if active */
+    height: 11.49px;
 	color: #32B8CD;
 }
 
@@ -164,15 +164,15 @@ body {
     display: none; /* Initially hidden */
     opacity: 0; /* Fully transparent */
     transition: opacity 0.2s ease; /* Fade-in only */
-	width: 225.0px;
-		font-size: 9.0px;
+	width: 191.4px;
+		font-size: 7.65px;
 }
 
 /* Submenu - Active State */
 .submenu.active {
     display: block; /* Make visible */
     opacity: 1; /* Fully visible */
-	font-size: 9.0px;
+	font-size: 7.65px;
 }
 
 /* Staggered Animation for Items */
@@ -198,7 +198,7 @@ body {
 /* Prevent bullets or extra styling */
 .submenu li {
     list-style: none; /* Remove bullets */
-    margin: 4.5px 0; /* Adjust spacing if necessary */
+    margin: 3.82px 0; /* Adjust spacing if necessary */
 }
 
 
@@ -206,8 +206,8 @@ body {
     display: flex;
     justify-content: space-between; /* Align children to the edges */
     align-items: center; /* Vertically align items */
-    margin-top: 13.5px;
-    margin-left: 27.0px;
+    margin-top: 11.49px;
+    margin-left: 22.96px;
     background-color: #121212;
     z-index: 15;
     position: relative;
@@ -226,9 +226,9 @@ body {
 }
 
 .tabs .nav-button .circle {
-    margin-right: 4.5px;
-    width: 11.7px;
-    height: 11.7px;
+    margin-right: 3.82px;
+    width: 9.96px;
+    height: 9.96px;
 }
 
 .tabs .nav-button .circle.active {
@@ -237,9 +237,9 @@ body {
 
 /* Blue Line */
 .blue-line-container {
-    width: 90.0%;
+    width: 100.0%;
     background-color: #32B8CD;
-    height: 22.5px;
+    height: 19.14px;
     position: fixed;
     top: 0;
     left: 0;
@@ -247,51 +247,51 @@ body {
 }
 
 .blue-line {
-    width: 90.0%;
-    height: 22.5px;
+    width: 100.0%;
+    height: 19.14px;
 }
 
 /* Divider */
 .divider {
-    height: 0.9px;
+    height: 0.77px;
     background-color: #717171;
-    width: 90.0%;
-    margin-top: 18.0px;
+    width: 100.0%;
+    margin-top: 15.32px;
 }
 
 
 /* Divider */
 .divider-below {
-    height: 0.9px;
+    height: 0.77px;
     background-color: #717171;
-    width: 90.0%;
+    width: 100.0%;
     margin-top: 0.0px;
 }
 
 
 
 .divider3 {
-    height: 0.9px;
+    height: 0.77px;
     background-color: #717171;
-    width: 90.0%;
-    margin-top: 9.0px;
-    margin-bottom: 9.0px;
+    width: 100.0%;
+    margin-top: 7.65px;
+    margin-bottom: 7.65px;
 }
 
 .divider4 {
-    height: 0.9px;
+    height: 0.77px;
     background-color: #717171;
-    width: 90.0%;
-    margin-top: 4.5px;
-    margin-bottom: 9.0px;
+    width: 100.0%;
+    margin-top: 3.82px;
+    margin-bottom: 7.65px;
 }
 
 .divider5 {
-    height: 0.9px;
+    height: 0.77px;
     background-color: #717171;
-    width: 90.0%;
-    margin-top: 18.0px;
-    margin-bottom: 13.5px;
+    width: 100.0%;
+    margin-top: 15.32px;
+    margin-bottom: 11.49px;
 }
 
 
@@ -301,59 +301,59 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: calc(90.0vh - 22.5px);
-    width: calc(90.0% - 225.0px);
-    margin-left: 225.0px;
+    height: calc(100vh - 19.14px);
+    width: calc(100.0% - 191.4px);
+    margin-left: 191.4px;
     background-color: #121212;
     box-sizing: border-box;
     overflow: hidden;
 }
 
 .title {
-    font-size: 21.6px;
-    margin-bottom: 18.0px;
+    font-size: 18.38px;
+    margin-bottom: 15.32px;
 }
 
 /* Grid and Cards */
 .grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 13.5px;
+    gap: 11.49px;
     justify-content: flex-start;
-    padding: 18.0px;
+    padding: 15.32px;
     overflow-x: hidden;
 
-	margin-top: 63.0px;
-	margin-bottom: 13.5px;
+	margin-top: 53.59px;
+	margin-bottom: 11.49px;
 }
 
 .card {
-    flex: 1 1 270.0px;
-    max-width: 270.0px;
-    min-width: 270.0px;
+    flex: 1 1 229.68px;
+    max-width: 229.68px;
+    min-width: 229.68px;
     box-sizing: border-box;
     background-color: white;
-    padding: 18.0px;
-    border-radius: 9.0px;
-    box-shadow: 0 3.6px 5.4px rgba(0, 0, 0, 0.1);
+    padding: 15.32px;
+    border-radius: 7.65px;
+    box-shadow: 0 3.06px 4.59px rgba(0, 0, 0, 0.1);
     color: black;
-	margin-top: 7.2px;
-	margin-left: 2.25px;
+	margin-top: 6.12px;
+	margin-left: 1.92px;
 }
 
 
 .cardv2 {
-    flex: 1 1 270.0px;
-    max-width: 225.0px;
-    min-width: 252.0px;
+    flex: 1 1 229.68px;
+    max-width: 191.4px;
+    min-width: 214.38px;
     box-sizing: border-box;
     background-color: white;
-    padding: 18.0px;
-    border-radius: 9.0px;
-    box-shadow: 0 3.6px 5.4px rgba(0, 0, 0, 0.1);
+    padding: 15.32px;
+    border-radius: 7.65px;
+    box-shadow: 0 3.06px 4.59px rgba(0, 0, 0, 0.1);
     color: black;
-	margin-top: 7.2px;
-	margin-left: 2.25px;
+	margin-top: 6.12px;
+	margin-left: 1.92px;
 }
 
 
@@ -365,14 +365,14 @@ body {
 }
 
 .card-section-horizontal .label {
-    font-size: 13.5px;
+    font-size: 11.49px;
     font-weight: bold;
     text-align: left;
     margin: 0;
 }
 
 .card-section-horizontal .value {
-    font-size: 13.5px;
+    font-size: 11.49px;
     font-weight: bold;
     text-align: right;
     margin-left: auto;
@@ -383,7 +383,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 9.0px;
+    margin-bottom: 7.65px;
 }
 
 
@@ -392,17 +392,17 @@ body {
     display: flex; /* Optional, helps with centering */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    width: 58.5%; /* Ensure container takes full width */
-    height: 40.5%; /* Ensure container takes full height */
-    border: 2.7px solid #32B8CD; /* Thick border with specified color */
-    border-radius: 13.5px; /* Rounded corners */
-	margin-left: 36.0px;
+    width: 65.0%; /* Ensure container takes full width */
+    height: 45.0%; /* Ensure container takes full height */
+    border: 2.29px solid #32B8CD; /* Thick border with specified color */
+    border-radius: 11.49px; /* Rounded corners */
+	margin-left: 30.63px;
 
 }
 
 
 .card-imagev2 {
-    width: 58.5%; /* Matches the width of the container */
+    width: 65.0%; /* Matches the width of the container */
     object-fit: cover; /* Ensures the image fills the container without distortion */
 }
 
@@ -411,17 +411,17 @@ body {
     display: flex; /* Optional, helps with centering */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    width: 58.5%; /* Ensure container takes full width */
-    height: 40.5%; /* Ensure container takes full height */
-    border: 2.7px solid #515151; /* Thick border with specified color */
-    border-radius: 13.5px; /* Rounded corners */
-	margin-left: 36.0px;
+    width: 65.0%; /* Ensure container takes full width */
+    height: 45.0%; /* Ensure container takes full height */
+    border: 2.29px solid #515151; /* Thick border with specified color */
+    border-radius: 11.49px; /* Rounded corners */
+	margin-left: 30.63px;
 
 }
 
 
 .card-imagev3 {
-    width: 58.5%; /* Matches the width of the container */
+    width: 65.0%; /* Matches the width of the container */
     object-fit: cover; /* Ensures the image fills the container without distortion */
 }
 
@@ -435,12 +435,12 @@ body {
 
 
 .label {
-    font-size: 13.5px;
+    font-size: 11.49px;
     font-weight: bold;
 }
 
 .value {
-    font-size: 14.4px;
+    font-size: 12.25px;
     font-weight: bold;
     text-align: right;
     margin-left: auto;
@@ -448,25 +448,25 @@ body {
 
 .box {
     background-color: #f0f0f0;
-    padding: 9.0px;
-    font-size: 10.8px;
+    padding: 7.65px;
+    font-size: 9.18px;
     border-radius: 0.0px;
-    margin-top: 4.5px;
+    margin-top: 3.82px;
     display: block;
-    height: 22.5px;
-    width: 216.0px;
+    height: 19.14px;
+    width: 183.75px;
 }
 
 .price-box {
-    font-size: 22.5px;
+    font-size: 19.14px;
     font-weight: bold;
     background-color: #515151;
     color: white;
-    padding: 7.2px;
+    padding: 6.12px;
     text-align: center;
-    margin: 13.5px auto;
+    margin: 11.49px auto;
     border-radius: 0.0px;
-    width: 130.5px;
+    width: 111.02px;
 }
 
 a {
@@ -479,11 +479,11 @@ a {
     background-color: #32B8CD;
     color: white;
     border: none;
-    padding: 6.3px 31.5px;
-    border-radius: 46.8px;
+    padding: 5.35px 26.79px;
+    border-radius: 39.81px;
     cursor: pointer;
-    font-size: 13.5px;
-    margin-top: 9.0px;
+    font-size: 11.49px;
+    margin-top: 7.65px;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -501,11 +501,11 @@ a {
     background-color: #32B8CD;
     color: white;
     border: none;
-    padding: 6.3px 31.5px;
-    border-radius: 46.8px;
+    padding: 5.35px 26.79px;
+    border-radius: 39.81px;
     cursor: pointer;
-    font-size: 13.5px;
-    margin-top: 9.0px;
+    font-size: 11.49px;
+    margin-top: 7.65px;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -525,11 +525,11 @@ a {
     background-color: #32B8CD;
     color: white;
     border: none;
-    padding: 7.2px 34.2px;
-    border-radius: 46.8px;
+    padding: 6.12px 29.1px;
+    border-radius: 39.81px;
     cursor: pointer;
-    font-size: 11.7px;
-    margin-top: 9.0px;
+    font-size: 9.96px;
+    margin-top: 7.65px;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -553,27 +553,27 @@ a {
     display: flex; /* Enables Flexbox for layout */
     justify-content: center; /* Centers buttons horizontally within the group */
     align-items: center; /* Vertically aligns the buttons */
-    gap: 13.5px; /* Adds spacing between the buttons */
+    gap: 11.49px; /* Adds spacing between the buttons */
     margin: 0 auto; /* Centers the button group itself within its parent */
-    margin-top: 13.5px; /* Adds space between the image and the buttons */
+    margin-top: 11.49px; /* Adds space between the image and the buttons */
 }
 
 
 
 .arrow {
-    margin-left: 2.7px;
+    margin-left: 2.29px;
 }
 
 /* Media Queries for responsiveness */
-@media (max-width: 1080.0px) {
+@media (max-width: 918.75px) {
     .card {
-        flex: 1 1 40.5%;
+        flex: 1 1 45.0%;
     }
 }
 
-@media (max-width: 691.2px) {
+@media (max-width: 588.0px) {
     .card {
-        flex: 1 1 90.0%;
+        flex: 1 1 100.0%;
         max-width: none;
     }
 }
@@ -581,30 +581,30 @@ a {
 
 .fixed-header {
     position: fixed;
-    top: 22.5px; /* Adjust based on the blue line height */
-    left: 225.0px; /* Sidebar width */
-    width: calc(90.0% - 225.0px);
+    top: 19.14px; /* Adjust based on the blue line height */
+    left: 191.4px; /* Sidebar width */
+    width: calc(100.0% - 191.4px);
     background-color: #121212;
     z-index: 15;
-    padding: 9.0px 0;
+    padding: 7.65px 0;
 }
 
 
 .scrollable-content {
-    margin-top: 72.0px; /* Space for the fixed header */
-    margin-left: 225.0px; /* Sidebar width */
-    padding: 18.0px;
-    height: calc(90.0vh - 72.0px); /* Remaining space after fixed header */
+    margin-top: 61.24px; /* Space for the fixed header */
+    margin-left: 191.4px; /* Sidebar width */
+    padding: 15.32px;
+    height: calc(100vh - 61.24px); /* Remaining space after fixed header */
     overflow-y: auto; /* Allow only content scrolling */
 	overflow-x: auto; /* Allow horizontal scrolling */
 }
 
 
 .card-title {
-    font-size: 18.0px;
+    font-size: 15.32px;
     font-weight: bold;
     text-align: center;
-    margin: 9.0px 0;
+    margin: 7.65px 0;
     color: #333;
 }
 
@@ -612,7 +612,7 @@ a {
 
 
 .window-head {
-    font-size: 17.1px !important;
+    font-size: 14.55px !important;
     color: black !important;
     margin: 0 !important;
     font-weight: bold !important;
@@ -621,7 +621,7 @@ a {
 
 
 .window-head2 {
-    font-size: 17.1px !important;
+    font-size: 14.55px !important;
     color: #32B8CD !important;
     margin: 0 !important;
     font-weight: bold !important;
@@ -631,41 +631,41 @@ a {
 
 /* Divider */
 .divider-blue {
-    height: 1.8px;
+    height: 1.53px;
     background-color: #32B8CD;
-    width: 90.0%;
-    margin-top: 1.8px;
-	margin-bottom: 13.5px;
+    width: 100.0%;
+    margin-top: 1.53px;
+	margin-bottom: 11.49px;
 }
 
 
 
 .label2 {
-    font-size: 15.75px;
+    font-size: 13.39px;
     font-weight: 540; /* Semi-bold */
     color: black; /* Makes the label text black */
-	margin-top: 13.5px;
+	margin-top: 11.49px;
 }
 
 .box2 {
     background-color: #EAEAEA;
-    padding: 13.5px; /* Maintains the left margin */
-    font-size: 13.5px;
-    border-radius: 3.6px; /* Slight rounding for better aesthetics */
-    margin-top: 4.5px;
+    padding: 11.49px; /* Maintains the left margin */
+    font-size: 11.49px;
+    border-radius: 3.06px; /* Slight rounding for better aesthetics */
+    margin-top: 3.82px;
     display: flex; /* Enables flexbox for alignment */
     align-items: center; /* Vertically centers the text */
-    height: 29.7px;
-    width: 90.0%; /* Makes the box span the full width of its container */
+    height: 25.26px;
+    width: 100.0%; /* Makes the box span the full width of its container */
     box-sizing: border-box; /* Ensures padding is included in the width */
     color: black; /* Makes the text inside the box black */
     text-align: left; /* Keeps the text aligned to the left */
-	margin-bottom: 13.5px;
+	margin-bottom: 11.49px;
 }
 
 
 .box3 {
-    font-size: 15.75px;
+    font-size: 13.39px;
     font-weight: 540; /* Semi-bold */
     color: black; /* Makes the label text black */
 
@@ -673,18 +673,18 @@ a {
 
 .box3 {
     background-color: #EAEAEA;
-    padding: 13.5px; /* Maintains the left margin */
-    font-size: 12.6px;
-    border-radius: 3.6px; /* Slight rounding for better aesthetics */
-    margin-top: 4.5px;
+    padding: 11.49px; /* Maintains the left margin */
+    font-size: 10.73px;
+    border-radius: 3.06px; /* Slight rounding for better aesthetics */
+    margin-top: 3.82px;
     display: flex; /* Enables flexbox for alignment */
     align-items: center; /* Vertically centers the text */
-    height: 29.7px;
-    width: 90.0%; /* Makes the box span the full width of its container */
+    height: 25.26px;
+    width: 100.0%; /* Makes the box span the full width of its container */
     box-sizing: border-box; /* Ensures padding is included in the width */
     color: black; /* Makes the text inside the box black */
     text-align: left; /* Keeps the text aligned to the left */
-	margin-bottom: 13.5px;
+	margin-bottom: 11.49px;
 }
 
 
@@ -694,7 +694,7 @@ a {
 .filter-section2 {
     display: flex;
     align-items: right; /* Vertically center the elements */
-    gap: 13.5px; /* Spacing between elements */
+    gap: 11.49px; /* Spacing between elements */
     margin-left: auto; /* Pushes the filter section to the right */
     margin-right: 0; /* Ensures it stays aligned to the right */
     padding: 0.0px 0; /* Adds vertical spacing */
@@ -702,26 +702,26 @@ a {
 
 /* Dropdown Menus */
 .dropdown2 {
-    padding: 4.5px;
-    font-size: 10.8px;
-    border: 0.9px solid #ccc;
-    border-radius: 45.0px; /* Fully rounded corners */
+    padding: 3.82px;
+    font-size: 9.18px;
+    border: 0.77px solid #ccc;
+    border-radius: 38.28px; /* Fully rounded corners */
     background-color: #fff;
     color: #333;
     cursor: pointer;
-    width: 85.5px; /* Makes the dropdown wider */
+    width: 72.73px; /* Makes the dropdown wider */
 	
 }
 
 /* Search Bar */
 .search-bar2 {
-    padding: 4.5px;
-    font-size: 10.8px;
-    border: 0.9px solid #ccc;
-    border-radius: 45.0px; /* Fully rounded corners */
-    width: 162.0px; /* Makes the search bar a bit wider */
-	margin-right: 49.5px;
-	padding-left: 9.0px;
+    padding: 3.82px;
+    font-size: 9.18px;
+    border: 0.77px solid #ccc;
+    border-radius: 38.28px; /* Fully rounded corners */
+    width: 137.82px; /* Makes the search bar a bit wider */
+	margin-right: 42.11px;
+	padding-left: 7.65px;
 }
 
 
@@ -734,33 +734,33 @@ a {
 
 /* Table Container */
 .table-container {
-    margin-top: 88.2px; /* Adjust vertical spacing */
-    padding: 18.0px;
+    margin-top: 75.03px; /* Adjust vertical spacing */
+    padding: 15.32px;
     background-color: #fff; /* White background */
-    border-radius: 7.2px;
+    border-radius: 6.12px;
     display: block;
-    width: 1377.0px; /* Ensure responsiveness */
-    box-shadow: 0 3.6px 5.4px rgba(0, 0, 0, 0.1);
+    width: 1171.41px; /* Ensure responsiveness */
+    box-shadow: 0 3.06px 4.59px rgba(0, 0, 0, 0.1);
     text-align: center;
     overflow-x: auto; /* Add horizontal scrolling */
-	margin-left: 20.7px;
-	height: 450.0px;
+	margin-left: 17.61px;
+	height: 382.81px;
 	
 }
 
 /* Table Styles */
 .table-container table {
     margin: 0 auto; /* Horizontally center the table */
-    width: 90.0%; /* Ensure table takes full container width */
+    width: 100.0%; /* Ensure table takes full container width */
     border-collapse: collapse;
-    font-size: 12.6px; /* Ensure readability */
+    font-size: 10.73px; /* Ensure readability */
     background-color: #fff; /* Table background color */
     color: #000; /* Black text */
 }
 
 table {
-    width: 90.0%; /* Use full width of container */
-    max-width: 90.0%;
+    width: 100.0%; /* Use full width of container */
+    max-width: 100.0%;
     border-collapse: collapse;
     table-layout: auto; /* Automatically adjust column widths */
 }
@@ -768,15 +768,15 @@ table {
 table thead th {
     background-color: #d3d3d3; /* Light grey header */
     color: #000; /* Black text */
-    padding: 10.8px; /* Add spacing */
+    padding: 9.18px; /* Add spacing */
     text-align: left; /* Left align text */
-    border-bottom: 1.8px solid #ccc; /* Bottom border */
+    border-bottom: 1.53px solid #ccc; /* Bottom border */
 }
 
 table tbody td {
     text-align: left; /* Align text to the left */
-    padding: 9.0px; /* Add padding */
-    border-bottom: 0.9px solid #ddd; /* Row border */
+    padding: 7.65px; /* Add padding */
+    border-bottom: 0.77px solid #ddd; /* Row border */
     word-wrap: break-word; /* Enable text wrapping */
     white-space: normal; /* Allow wrapping */
 }
@@ -788,10 +788,10 @@ table tbody tr:hover {
 
 
 
-@media (max-width: 691.2px) {
+@media (max-width: 588.0px) {
     .table-container {
         margin-left: 0;
-        width: 90.0%;
+        width: 100.0%;
     }
     table {
         display: block;
@@ -809,22 +809,22 @@ table tbody tr:hover {
 .fixed-title {
     position: fixed; /* Keeps it fixed while scrolling */
     top: 0.0px; /* Position it below the header */
-    left: 225.0px; /* Align with the sidebar */
-    width: calc(90.0% - 225.0px); /* Occupy the remaining width */
+    left: 191.4px; /* Align with the sidebar */
+    width: calc(100.0% - 191.4px); /* Occupy the remaining width */
 
     z-index: 14; /* Ensure it's above other elements */
-    padding: 13.5px 22.5px; /* Space around the content */
+    padding: 11.49px 19.14px; /* Space around the content */
     display: flex; /* Flexbox for horizontal alignment */
     align-items: center; /* Vertically align title and buttons */
     justify-content: space-between; /* Title on the left, buttons on the right */
-    border-bottom: 0.9px solid #717171; /* Subtle bottom border */
+    border-bottom: 0.77px solid #717171; /* Subtle bottom border */
     box-sizing: border-box; /* Include padding in width calculation */
     height: auto; /* Allow dynamic height adjustment */
 
 }
 
 .page-title {
-    font-size: 18.0px; /* Increase font size for visibility */
+    font-size: 15.32px; /* Increase font size for visibility */
     color: white; /* Ensure text is visible */
     margin-left: 50; /* Remove default margins */
     line-height: 1.5; /* Add space around the text */
@@ -833,16 +833,16 @@ table tbody tr:hover {
 
 .toggle-buttons {
     display: flex; /* Arrange buttons horizontally */
-    gap: 13.5px; /* Add space between buttons */
+    gap: 11.49px; /* Add space between buttons */
 }
 
 .toggle-buttons button {
-    padding: 5.4px 9.0px; /* Add padding for larger clickable area */
-    font-size: 12.6px; /* Maintain readable font size */
+    padding: 4.59px 7.65px; /* Add padding for larger clickable area */
+    font-size: 10.73px; /* Maintain readable font size */
     color: white; /* Button text color */
     background-color: #32B8CD; /* Button background color */
     border: none; /* Remove border */
-    border-radius: 4.5px; /* Rounded button corners */
+    border-radius: 3.82px; /* Rounded button corners */
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s ease; /* Smooth hover effect */
 }
@@ -863,14 +863,14 @@ table tbody tr:hover {
     display: flex;
     align-items: center; /* Vertically align title and buttons */
     justify-content: space-between; /* Space title and buttons on opposite ends */
-    padding: 0 22.5px; /* Adds 22.5px padding to both sides */
-    margin-top: 18.0px; /* Adjust margin to position below the divider */
-    margin-left: 22.5px; /* Adjust margin to position below the divider */
-    margin-right: 27.0px; /* Adjust margin to position below the divider */
+    padding: 0 19.14px; /* Adds 19.14px padding to both sides */
+    margin-top: 15.32px; /* Adjust margin to position below the divider */
+    margin-left: 19.14px; /* Adjust margin to position below the divider */
+    margin-right: 22.96px; /* Adjust margin to position below the divider */
 }
 
 .page-title {
-    font-size: 18.0px;
+    font-size: 15.32px;
     color: white;
     margin: 0; /* No additional margin */
     text-align: left; /* Ensure text is left-aligned */
@@ -879,16 +879,16 @@ table tbody tr:hover {
 
 .toggle-buttons {
     display: flex;
-    gap: 9.0px; /* Adds spacing between the buttons */
+    gap: 7.65px; /* Adds spacing between the buttons */
 }
 
 .toggle-buttons button {
-    padding: 7.2px 14.4px;
-    font-size: 12.6px;
+    padding: 6.12px 12.25px;
+    font-size: 10.73px;
     color: white;
     background-color: #32B8CD;
     border: none;
-    border-radius: 4.5px;
+    border-radius: 3.82px;
     cursor: pointer;
 }
 
@@ -903,9 +903,9 @@ table tbody tr:hover {
   background-color: #32B8CD;
   color: white;
   border: none;
-  padding: 9.0px 13.5px;
-  font-size: 12.6px;
-  border-radius: 4.5px;
+  padding: 7.65px 11.49px;
+  font-size: 10.73px;
+  border-radius: 3.82px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -918,9 +918,9 @@ table tbody tr:hover {
   background-color: #32B8CD;
   color: white;
   border: none;
-  padding: 9.0px 13.5px;
-  font-size: 12.6px;
-  border-radius: 4.5px;
+  padding: 7.65px 11.49px;
+  font-size: 10.73px;
+  border-radius: 3.82px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -939,16 +939,16 @@ table tbody tr:hover {
 
 
 .price-box2 {
-    font-size: 22.5px;
+    font-size: 19.14px;
     font-weight: bold;
     background-color: #515151;
     color: white;
-    padding: 7.2px;
+    padding: 6.12px;
     text-align: center;
-    margin: 13.5px auto;
+    margin: 11.49px auto;
     border-radius: 0.0px;
-    width: 130.5px;
-	margin-bottom: 18.0px;
+    width: 111.02px;
+	margin-bottom: 15.32px;
 }
 
 a {
@@ -957,15 +957,15 @@ a {
 
 
 .price-box3 {
-    font-size: 18.0px;
+    font-size: 15.32px;
     font-weight: bold;
     background-color: white;
     color: black;
     padding: 0.0px;
     text-align: center;
-    margin: 13.5px auto;
+    margin: 11.49px auto;
     border-radius: 0.0px;
-    width: 130.5px;
+    width: 111.02px;
 }
 
 a {
@@ -977,17 +977,17 @@ a {
 
 
 .divider3v1 {
-    height: 0.9px;
+    height: 0.77px;
     background-color: #717171;
-    width: 90.0%;
-    margin: 9.0px auto; /* Centers the divider horizontally and adds vertical spacing */
+    width: 100.0%;
+    margin: 7.65px auto; /* Centers the divider horizontally and adds vertical spacing */
 }
 
 .divider4v1 {
-    height: 0.9px;
+    height: 0.77px;
     background-color: #717171;
-    width: 90.0%;
-    margin: 4.5px auto 9.0px auto; /* Centers the divider horizontally and sets vertical spacing */
+    width: 100.0%;
+    margin: 3.82px auto 7.65px auto; /* Centers the divider horizontally and sets vertical spacing */
 }
 
 
@@ -996,17 +996,17 @@ a {
 
 
 .card2 {
-    flex: 1 1 270.0px;
-    max-width: 252.0px;
-    min-width: 252.0px;
+    flex: 1 1 229.68px;
+    max-width: 214.38px;
+    min-width: 214.38px;
     box-sizing: border-box;
     background-color: white;
-    padding: 18.0px;
-    border-radius: 9.0px;
-    box-shadow: 0 3.6px 5.4px rgba(0, 0, 0, 0.1);
+    padding: 15.32px;
+    border-radius: 7.65px;
+    box-shadow: 0 3.06px 4.59px rgba(0, 0, 0, 0.1);
     color: black;
-	margin-top: 7.2px;
-	margin-left: 2.25px;
+	margin-top: 6.12px;
+	margin-left: 1.92px;
 }
 
 .card2-section-horizontal {
@@ -1016,14 +1016,14 @@ a {
 }
 
 .card2-section-horizontal .label {
-    font-size: 13.5px;
+    font-size: 11.49px;
     font-weight: bold;
     text-align: left;
     margin: 0;
 }
 
 .card2-section-horizontal .value {
-    font-size: 13.5px;
+    font-size: 11.49px;
     font-weight: bold;
     text-align: right;
     margin-left: auto;
@@ -1034,7 +1034,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 9.0px;
+    margin-bottom: 7.65px;
 }
 
 
@@ -1046,9 +1046,9 @@ a {
 .switch {
     position: relative;
     display: inline-block;
-    width: 36.0px;
-    height: 18.0px;
-	margin-right: 49.5px;
+    width: 30.63px;
+    height: 15.32px;
+	margin-right: 42.11px;
 }
 
 .switch input {
@@ -1065,19 +1065,19 @@ a {
     right: 0;
     bottom: 0;
     background-color: #717171; /* Light grey background for the inactive state */
-    border-radius: 18.0px;
+    border-radius: 15.32px;
     transition: 0.4s;
 }
 
 .slider:before {
     position: absolute;
     content: "";
-    height: 14.4px;
-    width: 14.4px;
-    left: 1.8px;
-    bottom: 1.8px;
+    height: 12.25px;
+    width: 12.25px;
+    left: 1.53px;
+    bottom: 1.53px;
     background-color: #fff;
-    border-radius: 45.0%;
+    border-radius: 50.0%;
     transition: 0.4s;
 }
 
@@ -1086,11 +1086,11 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-    transform: translateX(18.0px);
+    transform: translateX(15.32px);
 }
 
 .switch-label {
-    font-size: 12.6px;
+    font-size: 10.73px;
     color: white;
     font-weight: bold;
 }
